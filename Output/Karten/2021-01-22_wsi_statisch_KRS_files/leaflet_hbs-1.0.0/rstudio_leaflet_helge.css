@@ -1,0 +1,74 @@
+.leaflet-tooltip.leaflet-tooltip-text-only,
+.leaflet-tooltip.leaflet-tooltip-text-only:before,
+.leaflet-tooltip.leaflet-tooltip-text-only:after {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.leaflet-tooltip.leaflet-tooltip-text-only.leaflet-tooltip-left {
+  margin-left: 5px;
+}
+
+.leaflet-tooltip.leaflet-tooltip-text-only.leaflet-tooltip-right {
+  margin-left: -5px;
+}
+
+.leaflet-tooltip:after {
+  border-right: 6px solid transparent;
+  /* right: -16px; */
+}
+
+.leaflet-popup-pane .leaflet-popup-tip-container {
+  /* when the tooltip container is clicked, it is closed */
+  pointer-events: all;
+  /* tooltips should display the "hand" icon, just like .leaflet-interactive*/
+  cursor: pointer;
+}
+
+/* have the widget be displayed in the right 'layer' */
+.leaflet-map-pane {
+  z-index: 0;
+}
+
+/* visual tweaks */
+
+.verticalLine {
+  border-left: 1px solid black;
+}
+
+.leaflet-container {
+	background: #f7fafa;
+	outline: 0;
+	}
+
+.leaflet-container a {
+	color: #fff;
+	}
+
+.leaflet-popup-content-wrapper {
+	height: 150px;
+	width: 350px;
+	position: relative;
+	line-height: 0px;    
+	border-left:0px solid #666666;
+    	border-right:0px solid #666666;
+    	border-top:0px solid #666666;
+    	border-bottom:0px solid #666666;
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+	background: rgba(219, 173, 198, 0);
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+	font: 16px/14px Tahoma, Verdana, sans-serif;
+	color: #ffffff;
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	font-weight: bold;
+}
+
+.leaflet-popup-tip {
+    width: 0px;
+    height: 0px;
+  }

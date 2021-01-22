@@ -30,12 +30,16 @@ name_s <- paste0(Sys.Date(), "_wsi_statisch_", ebene)
 name_i <- paste0(Sys.Date(), "_wsi_statisch_", ebene)
 
 # Farben für Regionen (zulässig: lila, pink, grau, tuerkis, blau)
-col_s <- "blau"
-col_i <- "blau"
+col_s <- "pink"
+col_i <- "pink"
 
 # (3) Schritte----
 
 # Funktionen einlesen
+
+dir.create("./Output/", showWarnings=F)
+dir.create("./Output/Karten", showWarnings=F)
+
 source("./Funktionen/funktionen_karten.R", encoding="UTF-8")
 
 # shapefile Download (nur wenn nicht vorhanden)

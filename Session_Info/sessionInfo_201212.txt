@@ -1,0 +1,31 @@
+R version 4.0.3 (2020-10-10)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 10 x64 (build 14393)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=German_Germany.1252  LC_CTYPE=German_Germany.1252    LC_MONETARY=German_Germany.1252
+[4] LC_NUMERIC=C                    LC_TIME=German_Germany.1252    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] widgetframe_0.3.1    scales_1.1.1         dplyr_1.0.2          leaflet.extras_1.0.0 htmlwidgets_1.5.2   
+ [6] extrafont_0.17       openxlsx_4.2.3       maptools_1.0-2       rgeos_0.5-5          ggmap_3.0.0         
+[11] htmltools_0.5.0      geosphere_1.5-10     styler_1.3.2         leaflet_2.0.3        rgdal_1.5-18        
+[16] Hmisc_4.4-2          ggplot2_3.3.2        Formula_1.2-4        survival_3.2-7       lattice_0.20-41     
+[21] sp_1.4-4             haven_2.3.1          stringr_1.4.0        pacman_0.5.1        
+
+loaded via a namespace (and not attached):
+ [1] httr_1.4.2          tidyr_1.1.2         splines_4.0.3       assertthat_0.2.1    latticeExtra_0.6-29 Rttf2pt1_1.3.8     
+ [7] pillar_1.4.7        backports_1.2.0     glue_1.4.2          extrafontdb_1.0     digest_0.6.27       RColorBrewer_1.1-2 
+[13] checkmate_2.0.0     colorspace_2.0-0    Matrix_1.2-18       plyr_1.8.6          pkgconfig_2.0.3     purrr_0.3.4        
+[19] jpeg_0.1-8.1        htmlTable_2.1.0     tibble_3.0.4        generics_0.1.0      farver_2.0.3        ellipsis_0.3.1     
+[25] withr_2.3.0         nnet_7.3-14         cli_2.2.0           magrittr_2.0.1      crayon_1.3.4        fansi_0.4.1        
+[31] forcats_0.5.0       foreign_0.8-80      tools_4.0.3         data.table_1.13.2   hms_0.5.3           RgoogleMaps_1.4.5.3
+[37] lifecycle_0.2.0     munsell_0.5.0       cluster_2.1.0       zip_2.1.1           compiler_4.0.3      rlang_0.4.9        
+[43] grid_4.0.3          rstudioapi_0.13     rjson_0.2.20        crosstalk_1.1.0.1   labeling_0.4.2      bitops_1.0-6       
+[49] base64enc_0.1-3     gtable_0.3.0        R6_2.5.0            gridExtra_2.3       knitr_1.30          stringi_1.5.3      
+[55] Rcpp_1.0.5          vctrs_0.3.5         rpart_4.1-15        png_0.1-7           tidyselect_1.1.0    xfun_0.19          
